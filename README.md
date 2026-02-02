@@ -6,21 +6,21 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 📖 Overview
-[cite_start]**Automated Data Preprocessing** is an AI-powered system designed to automate the data cleaning and preparation process, which is one of the most time-consuming stages in data analytics[cite: 13, 16].
+**Automated Data Preprocessing** is an AI-powered system designed to automate the data cleaning and preparation process, which is one of the most time-consuming stages in data analytics.
 
-[cite_start]Developed as a graduation project for **Bandırma Onyedi Eylül University**, this system analyzes structured datasets (CSV, TXT, XLSX) to detect missing values, outliers, and format inconsistencies using Machine Learning algorithms[cite: 17, 29]. [cite_start]Unlike traditional tools, it offers an **explainable recommendation engine**, allowing users to approve or modify cleaning strategies before execution[cite: 26, 33].
+Developed as a graduation project for **Bandırma Onyedi Eylül University**, this system analyzes structured datasets (CSV, TXT, XLSX) to detect missing values, outliers, and format inconsistencies using Machine Learning algorithms. Unlike traditional tools, it offers an **explainable recommendation engine**, allowing users to approve or modify cleaning strategies before execution.
 
 ## 🚀 Key Features
-* [cite_start]**📂 Multi-Format Support:** Automatically reads and processes **CSV, TXT, and XLSX** files[cite: 17, 29].
-* [cite_start]**🧠 AI-Driven Detection:** Utilizes advanced algorithms for anomaly detection[cite: 31, 60, 61]:
+* **📂 Multi-Format Support:** Automatically reads and processes **CSV, TXT, and XLSX** files.
+* **🧠 AI-Driven Detection:** Utilizes advanced algorithms for anomaly detection:
     * **KNN Imputer:** For intelligent missing value completion.
     * **Isolation Forest & LOF:** For robust outlier detection.
-* [cite_start]**💡 Recommendation Engine:** Provides explainable preprocessing suggestions (e.g., *"Clean with Mean Imputation"*) instead of "black-box" changes[cite: 33, 110].
-* [cite_start]**⚡ Automated Pipeline:** Automatically applies selected cleaning steps and logs every action for reproducibility[cite: 35, 101].
-* [cite_start]**📊 Quality Reporting:** Generates downloadable **PDF/HTML reports** showing data quality metrics before and after cleaning[cite: 37, 75].
+* **💡 Recommendation Engine:** Provides explainable preprocessing suggestions (e.g., *"Clean with Mean Imputation"*) instead of "black-box" changes.
+* **⚡ Automated Pipeline:** Automatically applies selected cleaning steps and logs every action for reproducibility.
+* **📊 Quality Reporting:** Generates downloadable **PDF/HTML reports** showing data quality metrics before and after cleaning.
 
 ## 🛠️ Tech Stack
-[cite_start]This project is built using the following technologies[cite: 172]:
+This project is built using the following technologies:
 
 | Category | Tool/Library | Description |
 | :--- | :--- | :--- |
@@ -32,7 +32,7 @@
 | **Reporting** | ReportLab / WeasyPrint | PDF report generation |
 
 ## ⚙️ Workflow
-[cite_start]The system follows a modular "Human-in-the-loop" pipeline approach[cite: 114, 125]:
+The system follows a modular "Human-in-the-loop" pipeline approach:
 
 1.  **Data Ingestion:** User uploads a dataset (CSV/TXT/Excel).
 2.  **Analysis:** System scans for missing values, outliers, and format errors.
@@ -59,12 +59,12 @@
     ```
 
 ## 🎓 Academic Information
-[cite_start]This project was developed within the scope of the **Computer Engineering** program at **Bandırma Onyedi Eylül University**[cite: 1, 3].
+This project was developed within the scope of the **Computer Engineering** program at **Bandırma Onyedi Eylül University**.
 
-* [cite_start]**Course:** BLM 4121 - Engineering Design [cite: 4]
-* [cite_start]**Student:** Büşra Yavuz [cite: 8]
-* [cite_start]**Advisor:** Dr. Arzum KARATAŞ [cite: 10]
-* [cite_start]**Date:** January 2026 [cite: 11]
+* **Course:** BLM 4121 - Engineering Design
+* **Student:** Büşra Yavuz
+* **Advisor:** Dr. Arzum KARATAŞ
+* **Date:** January 2026
 
 ---
 *Disclaimer: This tool is a prototype developed for academic purposes and focuses on structured tabular data.*
